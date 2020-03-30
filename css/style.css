@@ -434,11 +434,10 @@
   width: 640px;
   height: 160px;
   grid-template-areas: "glossaries eu-glossaries projects dochound";
-  grid-template-columns: 160px 160px 160px 160px;    
+  grid-template-columns: 160px 160px 160px 160px;   
 }
 
 .container > div {
-  border: 1px solid #888;
   margin: 5px;
 }
 
@@ -484,6 +483,7 @@
 
 .map-wrapper {
     background-color: #eee;
+    padding-bottom: 80px;
 }
 
 .map-wrapper:after {
@@ -495,27 +495,31 @@
 .column-map {
     float: left;
     width: 50%;
-    height: 300px;
+    height: 250px;
+    padding: 5px;
     padding: 5px;
 }
 
 .map-container {
-    float: right;
+    float: left;
     position: relative;
 }
 
 .map-container img {
-    height: auto;
-    width: 310px;
+    height: 240px;;
+    width: 250px;
     background-color: #FFF;
+    object-fit: cover;
 }
 
 .iate-container {
     position: relative;
-    width: 310px;
-    height: 237px;
-    border: 1px solid #000;
-    padding: 60px;
+    float: right;
+}
+
+.iate-container img {
+    height: 240px;
+    width: 250px;
 }
 
 
@@ -523,7 +527,7 @@
 
 .wrapper-4 {
     padding: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
     background-color: #FFF;
 }
 
@@ -803,13 +807,24 @@ body {
 .footer-social {
   padding: 0 1.875rem 1.25rem;
 }
+
+.follow-us {
+    border-top: solid 1px #bbb;
+    text-align: center;
+    color: #FFF;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 8px;
+    font-size: 15px;
+}
+
 .footer-social-list {
   display: flex;
   justify-content: center;
-  border-top: 1px  #bbb solid;
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
+  padding-bottom: 30px;
 }
+
 .footer-social-list li {
   margin: 0.5rem;
   font-size: 20px;
