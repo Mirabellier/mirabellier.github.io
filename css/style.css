@@ -28,6 +28,15 @@
     padding-left: 50px;
 }
 
+.hero-text {
+    font-size: 19px;
+    position: absolute;
+    bottom: 10px;
+    left: 210px;
+    text-align: center;
+    color:  #003777;
+}
+
 .hero-logo {
     padding-top: 60px;
     padding-left: 25px;
