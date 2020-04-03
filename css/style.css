@@ -58,6 +58,34 @@
     }
 }
 
+@media screen and (min-width: 1460px) {
+    .hero-slogan {
+        position: absolute;
+        padding-right: 50px;
+    }
+}
+
+@media screen and (min-width: 1550px) {
+    .hero-slogan {
+        position: absolute;
+        padding-right: 100px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+     .hero-slogan {
+        position: absolute;
+        padding-right: 240px;
+    }
+}
+
+@media screen and (min-width: 2500px) {
+     .hero-slogan {
+        position: absolute;
+        padding-right: 380px;
+    }
+}
+
 /* Navigation bar */
 .navbar {
   background-color: #003777;
@@ -90,7 +118,7 @@
 }
 
 #navigation a:hover {
-  color: yellow;
+  color: #f2db6a;
   cursor: pointer;
 }
 
@@ -607,7 +635,7 @@
     bottom: 20px;
 }
 
-.projects-container img {
+.article img {
     height: 120px;
     object-fit: contain;
 }
@@ -617,6 +645,7 @@
     padding: 5px;
     height: 140px;
     margin: auto;
+    text-align: center;
 }
 
 .yourterm-logo img {
@@ -637,6 +666,40 @@
     display: none;
 }
 
+
+/* MEDIA QUERY PROJECTS CONTAINER */
+
+@media only screen and (min-width: 1800px) {
+.yourterm-container {
+    height: 350px;
+    max-width: 1000px;
+    position: relative;
+    float: right;
+}
+    
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -400px;
+    
+}
+    
+.article img {
+    height: 140px;
+    object-fit: contain;
+}
+
+.article {
+    flex: 0 0 20%;
+    padding: 5px;
+    height: 140px;
+    margin: auto;
+    text-align: center;
+}    
+}
 
 /* Interviews Container */
 
@@ -722,6 +785,18 @@
     color: #FFF;
 }
 
+/* MEDIA QUERY INTERVIEW CONTAINER */
+
+@media only screen and (min-width: 1800px) {
+.interviews-container {
+    height: 350px;
+    max-width: 1000px;
+    position: relative;
+    float: none;
+}   
+}
+
+
 /* Footer main */
 
 .footer-main {
@@ -771,7 +846,7 @@ footer p {
 }
 
 footer a:hover {
-  color: yellow;
+  color: #f2db6a;
 }
 
 footer p {
