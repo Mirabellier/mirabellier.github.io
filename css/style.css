@@ -880,6 +880,18 @@
     color: #FFF;
 }
 
+
+.visitormap-container {
+    height: 200px;
+    position: relative;
+}
+
+.visitormap {
+    position: absolute;
+    right: 50px;
+    
+}
+
 /* MEDIA QUERY INTERVIEW CONTAINER */
 
 @media only screen and (min-width: 1800px) {
