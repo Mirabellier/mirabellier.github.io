@@ -134,6 +134,8 @@
   background-color: #FFF;
 }
 
+
+
 /* Social and Search Menu */
 
 .social-menu {
@@ -881,16 +883,7 @@
 }
 
 
-.visitormap-container {
-    height: 200px;
-    position: relative;
-}
 
-.visitormap {
-    position: absolute;
-    right: 50px;
-    
-}
 
 /* MEDIA QUERY INTERVIEW CONTAINER */
 
@@ -972,6 +965,9 @@ footer li {
   font-size: 14px;
   padding-bottom: 14px;
 }
+
+
+
 
 /* Sticks footer to bottom */
 
